@@ -228,12 +228,102 @@
       <div class="col-md-6"> <img src="img/about.jpg" class="img-responsive"> </div>
       <div class="col-md-6">
         <div class="about-text">
-          <h4>Who We Are</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh ante facilisis bibendum.</p>
-          <h4>What We Do</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh ante facilisis bibendum.</p>
-          <h4>Why Choose Us</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+<form ID="Form2">
+<INPUT type="checkbox" ID="Checkbox1" NAME="Checkbox1" VALUE="120"
+onchange="calculate(this)">
+Do you have a TV?<em> (a regular TV uses about 120 kwh of electricity thus producing ~196 lbs. of CO<sub>2</sub>)</em><br>
+<INPUT type="checkbox" ID="Checkbox2" NAME="Checkbox2" VALUE="120"
+onchange="calculate(this)">
+Do you have a washing machine? <em>(regular washer uses about 120 kwh of electricity thus producing ~196 lbs. of CO<sub>2</sub>)</em><br>
+<INPUT type="checkbox" ID="Checkbox3" NAME="Checkbox3" VALUE="1079"
+onchange="calculate(this)">
+How about a dryer? <em>(a dryer uses about 1,079 kwh of electricity thus producing ~1,770 lbs. of CO<sub>2</sub>)</em><br>
+<INPUT type="checkbox" ID="Checkbox4" NAME="Checkbox4" VALUE="512"
+onchange="calculate(this)">
+Do you use a dishwasher? <em>(a dishwasher uses about 512 kwh of electricity thus producing ~840 lbs. of CO<sub>2</sub>)</em><br>
+<INPUT type="checkbox" ID="Checkbox5" NAME="Checkbox5" VALUE="975"
+onchange="calculate(this)">
+What about a stove?<em> (a stove may use about 975 kwh of electricity thus producing ~1,600 lbs. of CO<sub>2</sub>)</em><br>
+<INPUT type="checkbox" ID="Checkbox6" NAME="Checkbox6" VALUE="209"
+onchange="calculate(this)">
+A microwave? <em>(a microwave uses about 209 kwh of electricity thus producing ~343 lbs. of CO<sub>2</sub>)</em><br>
+<INPUT type="checkbox" ID="Checkbox7" NAME="Checkbox7" VALUE="1079"
+onchange="calculate(this)">
+How about your refrigerator? <em>(a refrigerator uses about 1,079 kwh of electricity thus producing ~1,770 lbs. of CO<sub>2</sub>)</em><br>
+<INPUT type="checkbox" ID="Checkbox8" NAME="Checkbox8" VALUE="262"
+onchange="calculate(this)">
+Do you have a computer at home? <em>(a computer uses about 262 kwh of electricity thus producing ~430 lbs. of CO<sub>2</sub>)</em><br>
+<INPUT type="checkbox" ID="Checkbox9" NAME="Checkbox9" VALUE="45"
+onchange="calculate(this)">
+What about a printer? <em>(on average, running a printer uses about 45 kwh of electricity thus producing ~74 lbs. of CO<sub>2</sub>)</em><br>
+<INPUT type="checkbox" ID="Checkbox10" NAME="Checkbox10" VALUE="9"
+onchange="calculate(this)">
+OK, how about a cell phone? <em>(charging your cell phone uses about 9 kwh of electricity thus producing ~15 lbs. of CO<sub>2</sub>)</em><br>
+<INPUT type="checkbox" ID="Checkbox11" NAME="Checkbox11" VALUE="2800"
+onchange="calculate(this)">
+What about air-conditioning?<em> (an average air-conditioner uses about 2,800 kwh of electricity thus producing ~4,592 lbs. of CO<sub>2</sub>)</em><br>
+<INPUT type="checkbox" ID="Checkbox12" NAME="Checkbox12" VALUE="2800"
+onchange="calculate(this)">
+And your water heater? <em>(an average water heater uses about 2,800 kwh of electricity thus producing ~4,592 lbs. of CO<sub>2</sub>)</em><br>
+<INPUT type="checkbox" ID="Checkbox13" NAME="Checkbox13" VALUE="1400"
+onchange="calculate(this)">
+And we're pretty sure you have electric lights, right? <em>(an average home's lights use about 1,400 kwh of electricity thus producing ~2,296 lbs. of CO<sub>2</sub>)</em><br>
+<INPUT type="checkbox" ID="Checkbox14" NAME="Checkbox14" VALUE="4592"
+onchange="calculate(this)">
+Heating, do you use electric or gas heating? <em>(gas uses about 50,000 cubic meters of gas or ~ 6,053 lbs. of CO<sub>2</sub>, electric heating uses about 2,800 kwh of electricity thus producing ~4,592 lbs. of CO<sub>2</sub>)</em> To make things simple and consistent, we'll assume you use electricity.<br>
+<br>
+<INPUT type="checkbox" ID="Checkbox15" NAME="Checkbox15" VALUE="0"
+onchange="calculate(this)">
+  Check the box to complete your calculations.<br>
+<br>
+Wow...., based on the information you supplied, your home uses 
+  approximately <input type="text" name="answer" ID="Text13"> 
+  KW hours of electricity, which creates about  <input type="text" name="answer" ID="Text14">
+  pounds of CO<sub>2</sub> (1.64 x your KWH), or  
+  <input type="text" name="answer" ID="Text15">
+  tons of CO<sub>2</sub> (your pounds/2,000). <font color="#006633"><strong>Now 
+  for the interesting part!!!</strong></font> </p> 
+  <p>You do the math. One acre of <em><strong>Pinus radiata</strong></em> 
+  processes and stores roughly 5 tons of CO<sub>2</sub>. As shown, our home produces approximately 
+  <input type="text" name="answer" ID="Text16">
+   tons of CO<sub>2</sub>. How many acres of trees are needed to offset your home? How 
+  many individual trees?</p>
+  <p><a name="check"></a><a href="#check">Click here to check your 
+    answer</a>!</p>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+  <p><strong><font color="#0000CC">Yes, it takes roughly 
+    <input type="text" name="answer" ID="Text17">
+    acres or 
+    <input type="text" name="answer" ID="Text18">
+                  trees to offset the CO<sub>2</sub> used in running your home</font></strong>. 
+                  Now.... another component of your carbon imprint... what about 
+                  your transportation needs...... Every gallon of gas you burn 
+                  running your car creates roughly 20 lbs. of CO<sub>2</sub>. 
+                  So if my car gets 20 miles per gallon and I do 20,000 miles 
+                  per year..... yikes, that's another 10 tons of CO<sub>2</sub> 
+                  (<strong>you do the math for your car(s)!</strong>). <strong><font color="#0000CC">Hmmmm...... 
+                  that's another 2.0 acres or another 240 trees</font></strong>. 
+              </form></p>
+<p>Think about this problem for a moment. This problem is one small component 
+                in a much larger issue. Trees have a limited life span and also 
+                create CO<sub>2</sub> when the die and decay or are burned in 
+                a fire. And where do the aquatic plants fit in? Did you know the 
+                ocean plants are estimated to take in as much or more CO<sub>2</sub> 
+                each year than the land plants? It is thought that CO<sub>2</sub> 
+                sequestered in plants on the oceans surface that die and descend 
+                to oceans depths may be released back into the atmosphere over 
+                a much longer timeframe than that stored in trees. Have you ever 
+                consider this as a reason for keeping the oceans clean and ensuring 
+                a thriving environment for plants? How important is this?</p>
+              <p>Interesting <strong>&quot;<em><font color="#CC3333">Plant Talking Point</font></em>&quot;</strong> 
+                isn't it. How far can you stretch the point? We'd love to hear 
+                your thoughts on the subject and share them with others. If you'd 
+                like, please send your class discussion to: <a href="mailto:PlantingScience@botany.org">PlantingScience@botany.org</a>. 
+                <strong>Remember, solutions are all around us.</strong> Talking 
+                about and considering options helps us develop and build on new 
+                ideas. No matter how hard it seems, think long term. What kind 
+                of world do you want for your grandchildren&#8217;s children?</p>
+
         </div>
       </div>
     </div>
