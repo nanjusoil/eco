@@ -349,6 +349,22 @@ Wow...., based on the information you supplied, your home uses
 <script type="text/javascript" src="js/jquery.isotope.js"></script> 
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript">
+var calculatedValue = 0;
+function calculate(what) {
+	var change = 0;
+	change = ( what.checked )? (what.value - 0) : (0 - what.value);
+	calculatedValue = calculatedValue + change;
+	document.getElementById("Text13").value = calculatedValue;
+	document.getElementById("Text14").value = calculatedValue*1.64;
+	document.getElementById("Text15").value = calculatedValue*1.64/2000;
+	document.getElementById("Text16").value = calculatedValue*1.64/2000;
+	document.getElementById("Text17").value = (calculatedValue*1.64/2000)/5;
+	document.getElementById("Text18").value = ((calculatedValue*1.64/2000)/5)*120;
+	
+}
+</script>
+
 
 <!-- Javascripts
     ================================================== --> 
